@@ -4,9 +4,13 @@ package com.learning.basics;
 public class ConditionalStatements {
 
 
+
+
+
     public static void timeCheck(int time) {
 
         System.out.print("Now the time is :- " + time);
+
 
         if (time < 8) {
             System.out.println("... Good Morning!");
