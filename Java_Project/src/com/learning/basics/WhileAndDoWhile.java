@@ -10,8 +10,6 @@ public class WhileAndDoWhile {
             System.out.print(names[i] + " ");
         }
 
-
-
         System.out.println("\n-------------------------------");
         System.out.println("\n2. Using while loop");
         int j = 0;
