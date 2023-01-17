@@ -20,5 +20,9 @@ public class PatternPrint {
 
     public static void main(String[] args) {
         printPattern(4);
+
+        AccessModifiers obj1 = new AccessModifiers();
+        obj1.defaultSubtract(12, 4);
+        obj1.publicDivide(12, 4);
     }
 }
