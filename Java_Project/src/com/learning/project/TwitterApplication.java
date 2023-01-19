@@ -34,10 +34,10 @@ public class TwitterApplication {
         application.addUser(richard); //allUsers -> 1 ->richard obj
 
         User fetchedUser = application.getUser(123);
-        System.out.println("Fetched user :- "+ fetchedUser);
+        System.out.println("Fetched user :- " + fetchedUser);
 
         User fetchedUser2 = application.getUser(896);
-        System.out.println("Fetched user :- "+ fetchedUser2);
+        System.out.println("Fetched user :- " + fetchedUser2);
     }
 
     //Add user to the application
@@ -59,5 +59,4 @@ public class TwitterApplication {
         }
         return null;
     }
-
 }
