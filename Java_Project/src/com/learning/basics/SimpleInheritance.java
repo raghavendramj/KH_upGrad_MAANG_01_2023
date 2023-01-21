@@ -17,5 +17,5 @@ class Programmer extends Employee {
     }
 }
 
-public class Inherietnce {
+public class SimpleInheritance {
 }
