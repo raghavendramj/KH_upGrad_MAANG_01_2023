@@ -1,6 +1,5 @@
 package com.learning.oops;
 
-
 class Alexa {
     public void greeting(String userName) {
         System.out.println("Hello " + userName + "!, How are you today? ");
