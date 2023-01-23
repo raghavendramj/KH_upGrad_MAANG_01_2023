@@ -1,4 +1,4 @@
-package com.learning.basics;
+package com.learning.oops;
 
 
 abstract class HotBeverage {

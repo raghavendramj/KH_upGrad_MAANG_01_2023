@@ -1,4 +1,4 @@
-package com.learning.basics;
+package com.learning.oops;
 
 class Shape{
 
@@ -44,9 +44,14 @@ class Cube extends Square{
 public class MultiLevelInheritence {
 
     public static void main(String[] args) {
-        Cube cube  = new Cube(4, 10, 10, 10);
+        Cube cube  = new Cube(4, 10, 23, 45);
         cube.volume();
         cube.area();
         cube.display();
+
+        System.out.println("sides= " + cube.sides);
+        System.out.println("length= " + cube.length);
+        System.out.println("width= " + cube.width);
+        System.out.println("height= " + cube.height);
     }
 }

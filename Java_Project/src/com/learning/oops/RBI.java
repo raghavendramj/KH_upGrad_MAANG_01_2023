@@ -1,4 +1,4 @@
-package com.learning.basics;
+package com.learning.oops;
 
 //By default all the methods are public abstract
 public interface RBI {
